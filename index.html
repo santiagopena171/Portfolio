@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprender a programar sin romper la compu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Soy Santiago Peña, bienvenidos a mi portafolio</h1>
+        <p>Esto es un poco de lo que vengo estudiando</p>
+    </header>
+
+    <main>
+        <section id="html">
+            <h2>HTML</h2>
+            <p>Es como los huesos de un sitio. Sin esto, tu página sería una gelatina triste.</p>
+        </section>
+
+        <section id="css">
+            <h2>CSS</h2>
+            <p>La ropa linda del HTML. O la capa que hace que tu sitio no parezca una tarea del liceo en Word.</p>
+        </section>
+
+        <section id="javascript">
+            <h2>JavaScript</h2>
+            <p>El alma del sitio. También el responsable de que te salga un error que no entendés durante 4 horas.  </p>
+        </section>
+
+        <section id="motivational">
+            <h2>Frases motivacionales</h2>
+            <button onclick="mostrarFrase()">Motivame</button>
+            <p id="frase"></p>
+        </section>
+
+        <section id="aprendizaje">
+            <h2>Lo que aprendí hasta ahora</h2>
+            <ul>
+                <li><strong>HTML:</strong> etiquetas básicas, listas, imágenes, enlaces...</li>
+                <li><strong>CSS:</strong> clases, selectores, tamaños y distancias...</li>
+                <li><strong>JS:</strong> Poco y nada pero tamo en eso...</li>
+            </ul>
+        </section>
+
+        <section id="formulario">
+            <h2>Registrate para más bugs</h2>
+            <form onsubmit="enviarFormulario(event)">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="image-section">
+            <div class="img-container">
+                <img src="imagen1.jpg" alt="programación">
+            </div>
+        </section>
+
+        <section class="highlight">
+            <h2>¿Por qué estudiar programación?</h2>
+            <p>Porque me encanta resolver problemas, aunque a veces me den ganas de tirar la computadora por la ventana.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho con una 💻 precaria, mates y escuchando Radiokenny FM. Por Santiago Peña.</p>
+        <p>Si lees esto dame chamba plis</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
