@@ -13,3 +13,4 @@ function enviarFormulario(event) {
     event.preventDefault();
     alert("Gracias por registrarte. No te vamos a escribir nunca.");
 }
+
